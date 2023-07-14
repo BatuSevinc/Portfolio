@@ -12,8 +12,8 @@ const Hero = () => {
         <img className="intro-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I AM A FRONT END DEVELOPER</p>
-        <h1>React Developer.</h1>
+        <p>HI, I AM <i style={{color:'rgb(248, 217, 15)'}}> BATUHAN SEVİNÇ</i></p>
+        <h1>Front End Developer.</h1>
         <div>
           <Link className="btn" to={"/project"}>
             Project

@@ -16,6 +16,8 @@
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    padding-bottom: 50px;
+    position: relative;
 }
 
 .project-card img {
@@ -33,10 +35,14 @@
     text-align: justify;
 }
 
-.pro-btns {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+.pro-btns .pro-btn-left{
+    position: absolute;
+    bottom: 10px;
+}
+.pro-btns .pro-btn-right{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
 }
 
 .pro-btns .btn {

@@ -42,6 +42,7 @@
 }
 
 .hero .content p {
+    padding-bottom: 20px;
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
