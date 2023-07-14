@@ -27,16 +27,24 @@ const Navbar = () => {
       </Link>
       <ul className={handleMenu ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/" onClick={() => setHandleMenu(!handleMenu)}>Home</Link>
+          <Link to="/" onClick={() => setHandleMenu(!handleMenu)}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/project" onClick={() => setHandleMenu(!handleMenu)}>Project</Link>
+          <Link to="/project" onClick={() => setHandleMenu(!handleMenu)}>
+            Project
+          </Link>
         </li>
         <li>
-          <Link to="/about" onClick={() => setHandleMenu(!handleMenu)}>About</Link>
+          <Link to="/about" onClick={() => setHandleMenu(!handleMenu)}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact" onClick={() => setHandleMenu(!handleMenu)}>Contact</Link>
+          <Link to="/contact" onClick={() => setHandleMenu(!handleMenu)}>
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="hamburger-menu">

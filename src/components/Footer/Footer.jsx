@@ -47,33 +47,54 @@ const Footer = () => {
           <p>
             I am <b> Batuhan Sevinç,</b> an open-minded individual who embraces
             innovation and enjoys personal growth. Before contacting me, you can
-            take a look at my <b> <Link to={'/about'}>ABOUT</Link> </b>page to gather more information.
+            take a look at my{" "}
+            <b>
+              {" "}
+              <Link to={"/about"}>ABOUT</Link>{" "}
+            </b>
+            page to gather more information.
           </p>
           <div className="social">
-            <Link to='https://www.instagram.com/batusvnc/' target="_blank" rel="noopener noreferrer">
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+            <Link
+              to="https://www.instagram.com/batusvnc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
               />
-              </Link>
-            <Link to='https://www.linkedin.com/in/batusevinc/' target="_blank" rel="noopener noreferrer">
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/batusevinc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
               />
-              </Link>
-              <Link to='https://github.com/BatuSevinc' target="_blank" rel="noopener noreferrer">
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+            </Link>
+            <Link
+              to="https://github.com/BatuSevinc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
               />
-              </Link>
-              <Link className="https://twitter.com/bosverbebatu" target="_blank" rel="noopener noreferrer">
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+            </Link>
+            <Link
+              className="https://twitter.com/bosverbebatu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
               />
-              </Link>
+            </Link>
           </div>
         </div>
       </div>

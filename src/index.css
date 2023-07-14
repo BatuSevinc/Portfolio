@@ -1,40 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Outfit',sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
-body{
+
+body {
     background: #000;
 }
-h1,h4,p,a{
+
+h1, h4, p, a {
     color: #fff;
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-.btn{
+
+.btn {
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
-    background: rgb(248,217,15);
+    background: rgb(248, 217, 15);
     color: #222;
     border: 1px solid #fff;
     font-weight: 600;
     cursor: pointer;
 }
-.btn-light{
+
+.btn-light {
     background: transparent;
     color: #fff;
 }
-.btn:hover{
-    background: rgba(255,255,255,0.2);
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
     color: #fff;
     transition: 0.3s;
 }
-.maintenance{
+
+.maintenance {
     color: red;
     padding-top: 5px;
 }

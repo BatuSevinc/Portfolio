@@ -19,6 +19,7 @@ form input, form textarea {
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
 }
+
 form input::placeholder, form textarea::placeholder {
-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.05);
 }

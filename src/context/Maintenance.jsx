@@ -2,16 +2,16 @@ import { createContext, useState } from "react";
 
 export const MaintenanceContext = createContext();
 
-const Maintenance = ({children}) => {
+const Maintenance = ({ children }) => {
   const [maintenance, setMaintenance] = useState(true);
-  return(
+  return (
     <MaintenanceContext.Provider
-    value={{
-        maintenance
-    }}
+      value={{
+        maintenance,
+      }}
     >
-        {children}
+      {children}
     </MaintenanceContext.Provider>
-  )
+  );
 };
 export default Maintenance;
