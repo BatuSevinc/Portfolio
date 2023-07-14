@@ -6,7 +6,8 @@ import Project from './pages/Project'
 //React Router DOM
 import { Routes,Route } from 'react-router-dom';
 //Components
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 //Css
 import './index.css';
 
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/project' element={<Project/>}/>
       </Routes> 
+      <Footer/>
     </>
   )
 }

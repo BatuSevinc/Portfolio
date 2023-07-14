@@ -9,26 +9,36 @@ import "./navbar.css";
 
 const Navbar = () => {
   const [handleMenu, setHandleMenu] = useState(false);
+  const [color, setColor] = useState(false);
+
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
-        <ul className={handleMenu ? "nav-menu active" : "nav-menu"}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/project">Project</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+      <ul className={handleMenu ? "nav-menu active" : "nav-menu"}>
+        <li>
+          <Link to="/" onClick={() => setHandleMenu(!handleMenu)}>Home</Link>
+        </li>
+        <li>
+          <Link to="/project" onClick={() => setHandleMenu(!handleMenu)}>Project</Link>
+        </li>
+        <li>
+          <Link to="/about" onClick={() => setHandleMenu(!handleMenu)}>About</Link>
+        </li>
+        <li>
+          <Link to="/contact" onClick={() => setHandleMenu(!handleMenu)}>Contact</Link>
+        </li>
+      </ul>
       <div className="hamburger-menu">
         {handleMenu ? (
           <FaTimes

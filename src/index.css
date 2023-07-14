@@ -34,3 +34,7 @@ ul{
     color: #fff;
     transition: 0.3s;
 }
+.maintenance{
+    color: red;
+    padding-top: 5px;
+}
