@@ -163,8 +163,8 @@ const ProjectCardData = [
         theme options.
       </>
     ),
-    view: "https://www.youtube.com",
-    source: "https://www.github.com",
+    view: "https://batusevinc-social-app.netlify.app/",
+    source: "https://github.com/BatuSevinc/SocialMedia",
   },
   {
     image: Seamark,
