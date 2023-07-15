@@ -2,6 +2,12 @@
 import { Link } from "react-router-dom";
 //Images
 import IntroImg from "../../images/intro-bg.jpg";
+import React from '../../images/react.jpg'
+import Bootstrap from '../../images/bootstrap.jpg'
+import Css from '../../images/css.png'
+import JavaScript from '../../images/javaScript.png'
+import Tailwind from '../../images/tailwind.jpg'
+import Html5 from '../../images/html5.jpg'
 //Css
 import "./hero.css";
 
@@ -21,6 +27,14 @@ const Hero = () => {
           <Link className="btn btn-light" to={"/contact"}>
             Contact
           </Link>
+        </div>
+        <div className="skills">
+          <img src={React} alt="" />
+          <img src={JavaScript} alt="" />
+          <img src={Bootstrap} alt="" />
+          <img src={Tailwind} alt="" />
+          <img src={Css} alt="" />
+          <img src={Html5} alt="" />
         </div>
       </div>
     </div>

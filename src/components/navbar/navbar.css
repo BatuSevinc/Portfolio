@@ -27,7 +27,9 @@
     font-weight: 500;
     text-decoration: none;
 }
-
+.nav-menu li a:hover {
+    color: rgb(248, 217, 15);
+}
 .hamburger-menu {
     display: none;
 }
