@@ -42,6 +42,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="/resume" onClick={() => setHandleMenu(!handleMenu)}>
+            Resume
+          </Link>
+        </li>
+        <li>
           <Link to="/contact" onClick={() => setHandleMenu(!handleMenu)}>
             Contact
           </Link>
