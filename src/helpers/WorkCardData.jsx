@@ -3,6 +3,7 @@ import PhotoLand from "../images/photoland.png";
 import KukaSocial from "../images/kukaSocial.png";
 import Seamark from "../images/seamark.png";
 import Booking from "../images/batuBooking.png";
+import Restaurant from '../images/restaurant.png'
 const ProjectCardData = [
   {
     image: PhotoPortfolio,
@@ -125,8 +126,42 @@ const ProjectCardData = [
         their camera purchases.
       </>
     ),
-    view: "https://batusevinc-photoland.netlify.app/",
+    view: "https://youtu.be/Es6bMD4gP58",
     source: "https://github.com/BatuSevinc/PhotoLand",
+  },
+   {
+    image: Restaurant,
+    title: "Batu Restaurant",
+    descTR: (
+      <>
+React ve Tailwind CSS kullanarak geliştirdiğim restoran sayfası, kullanıcıları etkileyici bir arayüzle karşılıyor. Animasyonları kullanarak, kullanıcıların dikkatini çekmeyi ve deneyimlerini daha da keyifli hale getirmeyi amaçladım. Framer Motion kütüphanesini kullanarak sayfa geçişleri ve bileşen animasyonları oluşturdum, böylece sayfanın canlı ve dinamik bir hissiyat yaratmasını sağladım.
+<br/>
+Kullanıcıların kolayca tarihleri seçebilmeleri ve saatleri ile saat dilimlerini ayarlayabilmeleri için React Datepicker ve React Time Picker bileşenlerini ekledim. Bu, kullanıcıların randevularını yönetmelerini ve zaman tabanlı etkinlikleri düzenlemelerini kolaylaştırdı.
+<br/>
+Oluşturduğum karusel (slayt gösterisi) için React Responsive Carousel kütüphanesini tercih ettim. Bu sayede kullanıcılar, sayfanın responsive yapısına uygun ve kolay kullanılabilen bir karusel ile içerikleri keşfedebiliyorlar.
+<br/>
+Tarayıcı uyumluluğunu artırmak için Autoprefixer kullanırken, sayfada kullanacağım ikonlar için React Icons kütüphanesini kullandım. Bu, sayfayı farklı tarayıcılarda sorunsuz bir şekilde çalıştırmamı ve çeşitli ikonları kolayca entegre etmemi sağladı.
+<br/>
+Proje, lezzetli restoran içerikleri ve kullanıcı dostu bir arayüz sunarak kullanıcıların iştahını kabartıyor. Daha detaylı incelemek için 'View' butonuna tıklayarak projeyi keşfedebilirsiniz. Keyifli kullanımlar dilerim!
+
+      </>
+    ),
+    descEN: (
+      <>
+I developed a restaurant page using React and Tailwind CSS, which welcomes users with an impressive interface. By incorporating animations, my aim was to captivate users' attention and make their experiences even more enjoyable. Leveraging the Framer Motion library, I created smooth page transitions and captivating component animations, resulting in a lively and dynamic feel to the page.
+<br/>
+To facilitate users in easily selecting dates and adjusting time and time zones, I added React Datepicker and React Time Picker components. This enables users to efficiently manage appointments and time-based events.
+<br/>
+For the carousel (slideshow) I implemented, I opted for the React Responsive Carousel library. As a result, users can explore content seamlessly with a carousel that adapts to the page's responsive layout and provides a user-friendly experience.
+<br/>
+To enhance browser compatibility, I utilized Autoprefixer, ensuring the page runs smoothly on various browsers. Additionally, I employed the React Icons library for incorporating icons throughout the page. This facilitated smooth integration of various icons.
+<br/>
+The project offers a delectable restaurant experience and presents a user-friendly interface that whets the users' appetite. Feel free to click the 'View' button to explore the project in more detail. Enjoy your experience!
+
+      </>
+    ),
+    view: "https://batusevinc-restaurant.netlify.app/",
+    source: "https://github.com/BatuSevinc/Restaurant",
   },
   {
     image: KukaSocial,
