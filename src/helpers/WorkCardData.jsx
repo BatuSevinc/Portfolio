@@ -4,7 +4,90 @@ import KukaSocial from "../images/kukaSocial.png";
 import Seamark from "../images/seamark.png";
 import Booking from "../images/batuBooking.png";
 import Restaurant from '../images/restaurant.png'
+import Kerzz from '../images/Kerzz.png';
 const ProjectCardData = [
+  {
+    image: Kerzz,
+    title: "Kerzz Case",
+    descTR: (
+      <>
+ - Bu proje, React kullanılarak geliştirilmiş tek sayfalık bir web uygulamasıdır. Uygulama, API üzerinden veri çekimi, konum tabanlı mağaza listesi, infinite-scroll özelliği, arama, filtreleme, favoriye ekleme, ürün detayı,favoriye eklenen verileri localStorage'de tutma, skeleton ekranları ve responsive tasarım gibi çeşitli özellikleri içermektedir.
+ <br />
+ <b> PROJE YAPISI</b>
+ <br />
+ 1- API Üzerinden Veri Çekimi: 
+Uygulama, belirli bir API üzerinden post metoduyla veri çekimi yapar. Bu veriler, kullanıcıya mağaza bilgilerini sunar.
+<br />
+ 2- Konum Tabanlı Mağaza Listesi: 
+Kullanıcının izni dahilinde bulunduğu lokasyonu alarak, mağazaların konumlarına göre kilometre hesabı yapar ve listeler.
+<br />
+ 3- Infinite-Scroll Özelliği: 
+Yoğun veri kullanımını ele almak için sayfanın aşağısına indikçe otomatik olarak 24'lük veri çekimi yapar.
+<br />
+ 4- Arama (Search) Özelliği: 
+Kullanıcının mağazalar arasında arama yapmasına olanak tanır.
+<br />
+ 5- Filtreleme İmkanı: 
+Kullanıcıya mağaza listesini filtreleme imkanı sunar.
+<br />
+ 6- Sepet İşlevi: 
+Kullanıcının sepetine ürün eklemesine, çıkarmasına ve sipariş vermesine olanak tanır.
+<br />
+ 7- Favori Oluşturma: 
+Kullanıcının favorilere eklemesi sonucu eklenenler localStorage'a ve navbar kısmında bulunan favoriler kısmına eklenir. Kullanıcı tarayıcıyı kapatsa bile favoriye ekledikleri localStorage'de saklanarak kullanıcının tekrar giriş yapması halinde önceden eklediği favorilere ulaşabilir.
+<br />
+ 8- Ürün Detayı:
+Kullanıcı istediği ürünün üzerine tıklayarak daha detaylı bilgiye ulaşabilir. İsterse detay kısmından favorilere ekleyebilir veya favorilerden kaldırabilir.
+<br />
+ 9- Skeleton Ekranları: 
+Eksik veya gelmeyen bilgiler için kullanıcıya bilgi vermek amacıyla skeleton ekranları kullanır.
+<br />
+ 10- Responsive (Duyarlı) Tasarım: 
+Farklı ekran boyutlarına uyum sağlayacak şekilde tasarlanmıştır.
+<br />
+      </>
+    ),
+    descEN: (
+      <>
+      - This project is a single-page web application developed using React. The application includes various features such as data retrieval via API, a location-based store list, infinite-scroll functionality, search, filtering, adding to favorites, product details, storing favorite data in localStorage, skeleton screens, and responsive design.
+      <br />
+      <b> PROJECT STRUCTURE</b>
+      <br />
+      1- Data Retrieval via API:
+The application fetches data through a POST method from a specific API. These data provide store information to the user.
+     <br />
+     2- Location-Based Store List:
+By obtaining the user's location with their permission, the application calculates distances based on the locations of stores and lists them accordingly.
+     <br />
+     3- Infinite-Scroll Feature:
+To handle heavy data usage, the page automatically fetches data in sets of 24 as the user scrolls down.
+     <br />
+     4- Search Feature:
+Allows the user to search among stores.
+     <br />
+     5- Filtering Capability:
+Provides the user with the ability to filter the store list.
+     <br />
+     6- Cart Functionality:
+Allows the user to add, remove, and place orders from their cart.
+     <br />
+     7- Creating Favorites:
+When the user adds items to favorites, the added items are stored in localStorage and displayed in the favorites section of the navbar. Even if the user closes the browser, the added favorites are stored in localStorage, allowing the user to access previously added favorites upon logging in again.
+     <br />
+     8- Product Details:
+The user can click on a product to access more detailed information. If desired, they can add or remove the product from favorites through the details section.
+     <br />
+     9- Skeleton Screens:
+Utilizes skeleton screens to provide users with information placeholders in case of missing or yet-to-arrive data.
+     <br />
+     10- Responsive Design:
+Designed to adapt to different screen sizes.
+     <br />
+           </>
+    ),
+    view: "https://batuhansevinc-kerzz.netlify.app/",
+    source: "https://github.com/BatuSevinc/kerzz",
+  },
   {
     image: PhotoPortfolio,
     title: "Photo Portfolio",

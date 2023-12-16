@@ -85,8 +85,8 @@
     color: rgb(64, 148, 120);
     font-size: 14px;
 }
-.resume-desc .resume-desc-left .date,
-.resume-desc .resume-desc-left .subtitle {
+.date,
+.subtitle {
     color: rgb(64, 148, 120);
     font-size: 14px;
 }
